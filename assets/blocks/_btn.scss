@@ -1,0 +1,82 @@
+.btn {
+  display: inline-block;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 14px 48px;
+  text-transform: uppercase;
+}
+  
+.btn_purple {
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-text-fill-color: #fff;
+  color: #fff;
+}
+
+.btn_circle {
+  font-weight: 700;
+  padding: 16px 14px;
+  border-radius: 50%;
+  border: none;
+}
+
+.btn_grey {
+  color: #5C5C5E;
+  -webkit-text-fill-color: #5C5C5E;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #CACAD6;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background: linear-gradient(180deg, #bd10d898 0%, rgba(79, 0, 250, 0.566) 100%);
+  -webkit-text-fill-color: #fff;
+}
+
+.btn-buy-now {
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(299px, 1fr));
+  border: none;
+  padding: 0;
+} 
+
+.btn-buy-now span {
+  padding: 20px 0;
+  font-weight: 400;
+  width: 100%;
+}
+
+.btn-buy-now:hover .btn_purple,
+.btn-buy-now:focus .btn_purple,
+.btn-buy-now:active .btn_purple  {
+  background: linear-gradient(180deg, #bd10d898 0%, rgba(79, 0, 250, 0.566) 100%);
+  -webkit-text-fill-color: #fff;
+}
+
+.btn_c_g {
+  color: #5C5C5E;
+  -webkit-text-fill-color: #5C5C5E;
+}
+
+.btn_h_none:hover,
+.btn_h_none:focus,
+.btn_h_none:active {
+  background: none;
+  -webkit-text-fill-color: inherit;
+}
+
+@media (max-width: 768px) {
+  .btn_buy-now {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+  }
+}

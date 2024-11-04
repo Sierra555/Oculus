@@ -1,0 +1,17 @@
+.banner {
+  text-align: center;
+  padding-bottom: 110px;
+}
+  
+.banner__container {
+  max-width: 1380px;
+  margin: 0 auto;
+  background-image: url('/images/OCULUS.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+}
+
+.banner .btn-buy-now {
+  margin: 0 auto;
+}

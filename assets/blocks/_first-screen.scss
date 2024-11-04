@@ -1,0 +1,49 @@
+.first-screen {
+  min-height: calc(100vh - 80px);
+  background-image: url(../../images/bg-front.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.first-screen__heading {
+  padding-bottom: 50px;
+}
+
+.first-screen__title {
+  padding-top: 16%;
+  font-size: 96px;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+.first-screen__subtitle {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.first-screen__text {
+  font-size: 13px;
+  line-height: 1.1;
+}
+
+@media (max-width: 768px) {
+  .first-screen {
+    min-height: calc(100vh - 58px);
+  }
+
+  .first-screen__text {
+    text-align: center;
+  }
+
+  .first-screenn__title {
+    padding-top: 25%;
+    font-size: 40px;
+  }
+
+  .first-screen__subtitle {
+    font-size: 25px;
+  }
+}  
